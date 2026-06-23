@@ -1,0 +1,27 @@
+.banner-text {
+  width: min(92vw, 980px);
+  padding: 0 1rem;
+}
+
+.banner-text .h2 {
+  white-space: normal !important;
+  line-height: 1.55;
+}
+
+#subtitle {
+  display: block;
+  max-width: 100%;
+  white-space: normal !important;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+@media (max-width: 768px) {
+  .banner-text .h2 {
+    font-size: 1.12rem !important;
+  }
+
+  #subtitle {
+    font-size: 1.12rem !important;
+  }
+}
